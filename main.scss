@@ -182,7 +182,34 @@ html {
         position: relative;
         padding: 10px 2px 10px 20px;
 
+        transition: left 2s;
+
+        .A2016 {
+          left: 80px;
+          transition: left 2s;
+        }
+
+        .A2019 {
+          left: 160px;
+          transition: left 2s;
+        }
+
+        .A2020{
+          left: 80px;
+          transition: left 2s;
+        }
+
+        .A2022{
+          left: 0px;
+          transition: left 2s;
+        }
+
+
+
         h6 {
+
+          
+
           font-family: Mabry Mono;
           font-size: 16px;
           position: absolute;

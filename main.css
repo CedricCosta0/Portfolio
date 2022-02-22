@@ -1010,6 +1010,9 @@ footer .copy {
   html body #gallery .card img {
     width: 288px;
   }
+  html body .center #contact {
+    width: auto;
+  }
   html body .center #contact h3 {
     font-size: 94px;
   }

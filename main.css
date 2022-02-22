@@ -397,7 +397,6 @@ html body #gallery {
 }
 
 html body #gallery .card {
-  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,8 +406,9 @@ html body #gallery .card {
           flex-direction: column;
 }
 
-html body #gallery .card img {
+html body #gallery .card > img {
   border: solid 6px #070707;
+  width: 300px;
 }
 
 html body #gallery .card .desc {
@@ -942,12 +942,14 @@ footer .copy {
   }
   html body #cv .card1 {
     width: 70%;
+    padding: 10px 2px 10px 0px;
   }
   html body #cv .Cards {
-    padding: 10%;
+    min-height: 500px;
+    padding: 50px;
   }
   html body #cv .Cards .Card {
-    width: 100%;
+    width: calc(100% - 40px);
   }
   html body #competences h2 {
     font-size: 42px;
@@ -994,7 +996,13 @@ footer .copy {
     width: 120px;
   }
   html body #gallery .card {
-    width: 200px;
+    width: 300px;
+  }
+  html body #gallery .card .desc {
+    width: 300px;
+  }
+  html body #gallery .card img {
+    width: 288px;
   }
   footer .footer-txt {
     -webkit-box-orient: vertical;

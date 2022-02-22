@@ -198,32 +198,32 @@ html body #cv .card1 {
   width: 450px;
   position: relative;
   padding: 10px 2px 10px 20px;
-  -webkit-transition: left 2s;
-  transition: left 2s;
+  -webkit-transition: left 0.9s;
+  transition: left 0.9s;
 }
 
 html body #cv .card1 .A2016 {
   left: 80px;
-  -webkit-transition: left 2s;
-  transition: left 2s;
+  -webkit-transition: left 0.9s;
+  transition: left 0.9s;
 }
 
 html body #cv .card1 .A2019 {
   left: 160px;
-  -webkit-transition: left 2s;
-  transition: left 2s;
+  -webkit-transition: left 0.9s;
+  transition: left 0.9s;
 }
 
 html body #cv .card1 .A2020 {
   left: 80px;
-  -webkit-transition: left 2s;
-  transition: left 2s;
+  -webkit-transition: left 0.9s;
+  transition: left 0.9s;
 }
 
 html body #cv .card1 .A2022 {
   left: 0px;
-  -webkit-transition: left 2s;
-  transition: left 2s;
+  -webkit-transition: left 0.9s;
+  transition: left 0.9s;
 }
 
 html body #cv .card1 h6 {

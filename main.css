@@ -649,7 +649,6 @@ html .center {
 }
 
 html .center #contact {
-  width: 615px;
   height: 200px;
   position: relative;
   margin: 0;
@@ -1010,8 +1009,12 @@ footer .copy {
   html body #gallery .card img {
     width: 288px;
   }
-  html body .center #contact {
-    width: auto;
+  html body .center #contact .img1 {
+    right: 300px;
+    top: 70px;
+  }
+  html body .center #contact .img2 {
+    right: 25px;
   }
   html body .center #contact h3 {
     font-size: 94px;
